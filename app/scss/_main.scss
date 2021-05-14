@@ -90,6 +90,10 @@ main {
         // somewhat different
         &:nth-child(1) {
 
+            background-image: url('/images/bg-pattern-quotation.svg');
+            background-repeat: no-repeat;
+            background-position: 89% top;
+
             .testimonial__quote {
                 margin-top: 2.5rem;
                 width: 94%;
@@ -136,11 +140,6 @@ main {
 
             &:nth-child(5) {
                 grid-area: 4 / 1 / 5 / 3;
-            //    padding-bottom: 1.625rem;
-
-                .testimonial__quote {
-            //        margin-top: 1.5rem;
-                }
             }
         }
 
@@ -148,6 +147,7 @@ main {
 
             &:nth-child(1) {
                 grid-area: 1 / 1 / 2 / 3;
+                background-position: 83% top;
 
                 .testimonial__quote {
                     margin-top: 1rem;
