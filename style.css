@@ -152,7 +152,7 @@ main {
 @media (min-width: 1025px) {
   .testimonials .testimonial:nth-child(1) {
     grid-area: 1/1/2/3;
-    background-position: 83% top;
+    background-position: 82% top;
   }
   .testimonials .testimonial:nth-child(1) .testimonial__quote {
     margin-top: 1rem;
