@@ -1,0 +1,36 @@
+@use "variables" as *;
+@use "breakpoints" as bp;
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:wght@500;600&display=swap');
+
+html {
+    font-size: 100%;
+    font-family: 'Barlow Semi Condensed', sans-serif;
+    box-sizing: border-box;
+}
+
+*, *::before, *::after {
+    box-sizing: inherit;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: $lightGrayishBlue;
+}
+
+// font sizes(lh)
+//       p  13(18)
+//  p.name  13(13)
+// p.verif  11(11)
+// header   20
+
+p {
+    font-size: 0.8125rem;
+    line-height: 1.125rem;
+    
+}
+
+h3 {
+    font-size: 1.25rem;
+    font-weight: 600;
+}
