@@ -109,6 +109,11 @@ main {
   margin-bottom: 0;
   opacity: 70%;
 }
+.testimonials .testimonial:nth-child(1) {
+  background-image: url("/images/bg-pattern-quotation.svg");
+  background-repeat: no-repeat;
+  background-position: 89% top;
+}
 .testimonials .testimonial:nth-child(1) .testimonial__quote {
   margin-top: 2.5rem;
   width: 94%;
@@ -147,6 +152,7 @@ main {
 @media (min-width: 1025px) {
   .testimonials .testimonial:nth-child(1) {
     grid-area: 1/1/2/3;
+    background-position: 83% top;
   }
   .testimonials .testimonial:nth-child(1) .testimonial__quote {
     margin-top: 1rem;
